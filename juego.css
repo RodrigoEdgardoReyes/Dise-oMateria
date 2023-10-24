@@ -1,11 +1,19 @@
 :root {
     --fondo: #701195;
     --color: #fff;
-    --bg-pregunta: #7e59a5;
+    --bg-pregunta: #946dbc;
     --bg-r1: #4390EE;
     --bg-r2: #C53EE7;
     --bg-r3: #1268ad;
     --bg-r4: #d8c00e;
+}
+@font-face {
+    font-family: BungeeInline-Regular;
+    src: url(./fonts/BungeeInline-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family:Inter-Ligth;
+    src: url(./fonts/Inter-Light.ttf) format('truetype');
 }
 
 * {
@@ -39,7 +47,8 @@ body {
 
 .Tsuperior h2 {
     text-align: center;
-    margin-top: 30px;
+    margin-top:20px;
+    font-family: 'BungeeInline-Regular';
 }
 
 /*Tren inferiior, seccion de preguntas y repsuestas*/
@@ -68,6 +77,7 @@ body {
     padding: 30px;
     margin-left: 10px;
     text-transform: uppercase;
+    font-family:  Inter-Ligth;
 }
 
 /*Lado izquierdo*/
@@ -122,17 +132,15 @@ body {
 .respuesta4:hover{
     background-color: #e9d11c;
 }
-.respuesta1 .respuesta2 .respuesta3 .respuesta4:hover{
-
-
+.text{
+    font-family:  Inter-Ligths;
 }
 
 /*Imagenes*/
 #salida {
     width: 50px;
     margin-left: 10px;
-    margin-top: 10px;
-
+    margin-top: 10px;  
 }
 
 #cerebro {
